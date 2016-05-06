@@ -343,7 +343,7 @@ function profile_js() {
                 Apperyio('targetmessage').text("Congratulations, you have managed to completely quit smoking!");
             }
             //Display message if user has reached target
-            else if (amountTarget >= amountNow) {
+            else if (amountTarget <= amountNow) {
                 Apperyio('targetmessage').text("Congratulations, you have successfully reached your newest target of smoking " + amountTarget + " cigarettes per day!");
             }
 
